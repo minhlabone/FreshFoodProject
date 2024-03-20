@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FreshFoodManager</string>
+    <string name="gi_150000">Giá: 150000</string>
+    <string name="th_m_v_o_gi_h_ng">Thêm Vào Giỏ Hàng</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+      <group  android:checkableBehavior="single">
+           <item
+               android:id="@+id/nav_home"
+               android:title="Trang Chủ"
+               android:icon="@drawable/trangchu"
+               />
+      </group>
+      <item android:title="Thực Phẩm">
+            <menu>
+                  <item
+                      android:id="@+id/nav_rau"
+                      android:title="Rau Củ"
+                      android:icon="@drawable/raucu"
+                      />
+                  <item
+                      android:id="@+id/nav_thit"
+                      android:title="Thịt,Cá,Trứng"
+                      android:icon="@drawable/thitcatrung"
+                      />
+                  <item
+                      android:id="@+id/nav_qua"
+                      android:title="Hoa Quả"
+                      android:icon="@drawable/hoaqua"
+                      />
+            </menu>
+      </item>
+      <item android:title="Công Cụ">
+            <menu>
+                  <item
+                      android:id="@+id/nav_quanli"
+                      android:title="Quản lí"
+                      android:icon="@drawable/khohang"
+                      />
+                  <item
+                      android:id="@+id/nav_donhang"
+                      android:title="Đơn hàng"
+                      android:icon="@drawable/donhang"
+                      />
+                  <item
+                      android:id="@+id/nav_thongke"
+                      android:title="Thống kê"
+                      android:icon="@drawable/thongke"
+                      />
+                  <item
+                      android:id="@+id/nav_dangxuat"
+                      android:title="Đăng xuất"
+                      android:icon="@drawable/baseline_logout_24"
+                      />
+            </menu>
+      </item>
+</menu>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+   <TextView
+       android:id="@+id/contact"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/background_shape1"
+       android:gravity="center"
+       android:text="Liên hệ"
+       android:textColor="@color/white"
+       android:textSize="40dp" />
+
+   <ImageView
+       android:id="@+id/logo"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_below="@+id/contact"
+       android:layout_alignParentStart="true"
+       android:layout_marginStart="128dp"
+       android:layout_marginLeft="200dp"
+       android:layout_marginTop="27dp"
+       android:background="@drawable/fresh" />
+
+   <!--   <TextView-->
+   <!--       android:id="@+id/tv2"-->
+   <!--       android:layout_width="wrap_content"-->
+   <!--       android:layout_height="wrap_content"-->
+   <!--       android:layout_alignParentStart="true"-->
+   <!--       android:layout_alignParentEnd="true"-->
+   <!--       android:layout_marginStart="170dp"-->
+   <!--       android:layout_marginTop="80dp"-->
+   <!--       android:text="VỀ CHÚNG TÔI: "-->
+   <!--       android:textColor="#67E46C" />-->
+
+   <!--   <TextView-->
+   <!--       android:layout_width="wrap_content"-->
+   <!--       android:layout_height="wrap_content"-->
+   <!--       android:layout_below="@id/tv2"-->
+   <!--       android:layout_alignParentStart="true"-->
+   <!--       android:layout_marginStart="184dp"-->
+   <!--       android:layout_marginTop="1dp"-->
+   <!--       android:text="Cam kết đem lại cho khách hàng những sản phẩm đảm bảo chất lượng với 3 tiêu chí hàng đầu: xanh, sạch, tốt cho sức khỏe."-->
+   <!--       android:textColor="@color/black" />-->
+
+   <TextView
+       android:id="@+id/tv1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/logo"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentEnd="true"
+       android:layout_marginTop="6dp"
+       android:layout_marginEnd="21dp"
+       android:gravity="center"
+       android:text="FRESH FOOD : Đem lại sức khỏe đến khách hàng"
+       android:textColor="#0FBB00"
+       android:textSize="18dp"
+       android:textStyle="normal" />
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       app:cardCornerRadius="58dp"
+       android:layout_marginBottom="-20dp"
+       android:layout_below="@id/tv1"
+       android:layout_marginTop="20dp">
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/bg_contact">
+         <TextView
+             android:id="@+id/tv3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Tổng đài tư vấn và hỗ trợ trực tuyến"
+             android:textColor="#E80C0C"
+             android:textStyle="bold"
+             android:textSize="17dp"
+             android:layout_marginTop="10dp"
+             android:layout_centerHorizontal="true"/>
+         <LinearLayout
+             android:id="@+id/linear1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/tv3"
+             android:orientation="horizontal"
+             android:gravity="center">
+            <ImageView
+                android:id="@+id/fb"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/fb"
+                android:layout_margin="20dp" />
+            <ImageView
+                android:id="@+id/zalo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/zalo"
+                android:layout_margin="20dp"/>
+            <ImageView
+                android:id="@+id/ins"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/insta"
+                android:layout_margin="20dp"/>
+            <ImageView
+                android:id="@+id/twitter"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tw"
+                android:layout_margin="20dp"/>
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/linear1"
+             android:orientation="vertical">
+            <!--            <TextView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_margin="10dp"-->
+            <!--                android:drawableLeft="@drawable/baseline_phone_android_24"-->
+            <!--                android:drawablePadding="20dp"-->
+            <!--                android:text="Hotline: 1900 6750"-->
+            <!--                android:textSize="17dp"-->
+            <!--                android:textColor="@color/black"/>-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/baseline_local_phone_24"
+                android:drawablePadding="20dp"
+                android:text="Tel: 096 2501 346 "
+                android:textSize="17dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="20dp"
+                android:text="Gmail: mrdiep15052002@gmail.com"
+                android:textSize="17dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/baseline_add_location_alt_24"
+                android:drawablePadding="20dp"
+                android:text="Address: 150 Chiến Thắng, Thanh Trì, Hà Nội"
+                android:textSize="17dp"
+                android:textColor="@color/black"/>
+         </LinearLayout>
+
+      </RelativeLayout>
+   </androidx.cardview.widget.CardView>
+</RelativeLayout>

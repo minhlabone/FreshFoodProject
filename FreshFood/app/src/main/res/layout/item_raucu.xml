@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="8dp"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="10dp"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+   <LinearLayout
+       android:padding="10dp"
+       android:background="@drawable/white_background"
+       android:orientation="horizontal"
+       android:layout_margin="5dp"
+       android:weightSum="10"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+     <ImageView
+         android:id="@+id/itemraucu_image"
+         android:src="@drawable/iconnew"
+         android:layout_width="0dp"
+         android:layout_height="100dp"
+         android:layout_weight="3"
+         />
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="7">
+           <TextView
+               android:id="@+id/itemraucu_ten"
+               android:gravity="center"
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:text="Tên Sản Phẩm"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               />
+           <TextView
+               android:id="@+id/itemraucu_gia"
+               android:textSize="16sp"
+               android:text="Giá: 50000"
+               android:textColor="#ED1451"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+           <TextView
+               android:id="@+id/itemraucu_mota"
+               android:textSize="14sp"
+               android:text="Mô Tả"
+               android:textStyle="italic"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+       </LinearLayout>
+   </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <group>
+       <item
+           android:id="@+id/nav_trangchudonhang"
+           android:title="Về Trang Chủ"
+           android:icon="@drawable/house"
+           />
+   </group>
+    <item android:title="Tình trạng đơn">
+        <menu>
+            <item
+                android:id="@+id/dangxuli"
+                android:title="Đơn hàng đang được xử lí"
+                android:icon="@drawable/icon_xuli"
+                />
+
+            <item
+                android:id="@+id/chapnhan"
+                android:title="Đơn hàng đã chấp nhận"
+                android:icon="@drawable/icon_chapnhan"
+                />
+            <item
+                android:id="@+id/vanchuyen"
+                android:title="Đã giao cho đơn vị vận chuyển"
+                android:icon="@drawable/icon_vanchuyen"
+                />
+            <item
+                android:id="@+id/thanhcong"
+                android:title="Giao Thành Công"
+                android:icon="@drawable/icon_thanhcong"
+                />
+            <item
+                android:id="@+id/dahuy"
+                android:title="Đơn hàng đã hủy"
+                android:icon="@drawable/icon_dahuy"
+                />
+        </menu>
+    </item>
+
+
+
+</menu>
